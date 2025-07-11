@@ -14,7 +14,8 @@
     "build": "react-scripts build",
     "package": "electron-builder --dir",
     "dist": "react-scripts build && build --x64 --win --c.extraMetadata.main=build/gateway.js -p always",
-    "test": "mocha \"test/**/*.js\""
+    "test": "mocha \"test/**/*.js\"",
+    "lint": "eslint ."
   },
   "dependencies": {
     "discord-rpc": "^3.0.2",
@@ -42,6 +43,9 @@
     "electron": "^5.0.0",
     "electron-builder": "^20.39.0",
     "electron-devtools-installer": "^2.2.4",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "mocha": "^6.1.4",
     "react-scripts": "3.0.0",
     "typescript": "^3.4.5",

@@ -49,6 +49,11 @@ $ npm dist
 ```
 The packaged files will appear in the `dist` folder.
 
+#### Linting 🧹
+```
+$ npm run lint
+```
+
 ---
 
 ## Contributing 📝
